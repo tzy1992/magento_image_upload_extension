@@ -1,0 +1,1 @@
+# magento_image_upload_extension

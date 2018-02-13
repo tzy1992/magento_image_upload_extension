@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
+ * @package Amasty_HelloWorld
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <amasty_helloworld>
+            <general>
+                <enable>1</enable>
+                <block_label></block_label>
+                <text_align>center</text_align>
+            </general>
+        </amasty_helloworld>
+    </default>
+</config>

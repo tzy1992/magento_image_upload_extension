@@ -1,0 +1,15 @@
+<?php
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2015 Amasty (http://www.amasty.com)
+ * @package Amasty_HelloWorld
+ */
+?>
+
+<div class="amasty-helloworld-block" style="text-align: <?= $this->getTextAlign()?>">
+    <h3 class="label"><img src="<?= $this->getBaseUrl().'pub/media/Upload File/'.$this->getBlockLabel()?>"/></h3>    
+  
+    <?php foreach($this->getCollection() as $item):?>
+        <p><label><?= __("Title: ") . $item->getLabel()?></label> -- <label><?=  __("Value: ") . $item->getValue();?></label></p>
+    <?php endforeach;?>
+</div>
